@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="Misestiloss.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="script.js">
+ <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
    <title>Registrate</title>
 </head>
 <body>
-  <i><h1 align="center">PHOTOWORLD</h1></i>
+ <i><h1 align="center">PHOTOWORLD</h1></i>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="web.html">Inicio</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -62,7 +62,7 @@
                                             <input type="text" class="form-control" id="Nombre"placeholder="Primer nombre *" value="" />
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="Nombre2"placeholder="Segundo nombre *" value="" />
+                                            <input type="text" class="form-control" id="Nombre2"placeholder="Segundo nombre *" value=""/>
                                         </div>
                                         <div class="form-group">
                                           <input type="text" class="form-control"id="Apellidos" placeholder="Apellidos *" value="" />
@@ -78,35 +78,21 @@
                                         </div>
                                         <div class="col-md-6">
                                           <div class="form-group">
-                                                <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" id="celular"placeholder="Numero celular *" value="" />
+                                                <input type="text" minlength="10" maxlength="10" name="Phone" class="form-control" id="celular"placeholder="Numero celular *" value="" />
                                             </div>
-                                        <div class="form-group">
-                                            <div class="maxl">
-                                                <label class="radio"> 
-                                                    <input type="radio" name="gender" id="sexomasculino" value="Masculino" checked>
-                                                    <span>Masculino</span> 
-                                                </label>
-                                                <label class="radio inline"> 
-                                                    <input type="radio" name="gender" id="sexofemenino" value="Femenino">
-                                                    <span>Femenino <style background-color: blue;></style></span> 
-                                                </label>
-                                            </div>
-                                            <div class="form-group">
-                                            <div class="maxl">
-                                            <label class="radio button"> 
-                                              <h3>  <b>  Seleccione su rol</b> </h3>
-                                                <input type="radio" name="rol" value="Fotografo" checked>
-                                                <span>Fotografo</span> 
-                                            </label>
-                                            <input type="radio" name="rol" value="Aprendiz">
-                                                <span>Aprendiz</span> 
-                                            </label>
-                                            </div>
-                                          </div>
+                                            <label for="sexo">Sexo:</label>
+                                            <input type="radio" name="sexo" id="sexo" value="Masculino"> Masculino
+                                            <input type="radio" name="sexo" id="sexo" value="Femenino"> Femenino
+                                            <input type="radio" name="sexo" id="sexo" value="Otro"> Otro
+                                        </div>
+                                        <input type="radio" name="rol" id="rol"  value="fotografo" checked>fotografo  
+                                         <br>
+                                         <input type="radio" name="rol"id="rol" value="aprendiz" checked>aprendriz
+                                         <br>
                                           </div>
                                     </div>
                                     
-                                        <input type="submit" class="btnEnviar" id="Registrar"  value="Registrar"/>
+                                    <input type="submit" class="btnEnviar" id="Registrar"  value="Registrar"/>
                                     </div>
                                 </div>
                             </div>
@@ -186,7 +172,7 @@
 </div>
 </center>
 </footer>
-<script  src="script.js">nyh
+<script  src="script.js">
 
 </script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

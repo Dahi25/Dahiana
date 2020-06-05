@@ -2,16 +2,21 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
- 
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Llamo al CSS propio de bootstrap-->
-  <title>PhotoWorld</title>
+<title>PhotoWorld</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="jumbotron">
+    <h1>  PHOTO WORLD </h1>
+    <p><center><b>Te damos  la bienvenida a nuestro sitio web , 
+                     aquí encontraras varios fotografos  y algunas de sus creaciones, ademas puedes adquirir ideas para
+                     que tu mismo crees tus obras fotograficas.</center></b> </p>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="web.html">Inicio</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -41,9 +46,7 @@
         <button class="btn btn-.dark bg-primary" type="submit">Buscar</button>
       </form>
     </div>
-    </div>
-     </nav>
-    
+  </nav>
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -107,70 +110,69 @@
       </div>
     </div>
    </div>
-  </div>
-   <div style="background-color: #0275d8;">
+   <div style="background-color:#0275d8;">
     <div class="container">
- 
- 
- <footer class="page-footer font-small dark pt-4">
+  
+   <footer class="page-footer font-small dark pt-4">
 
-<!-- Footer Links -->
-<div class="container-fluid text-center text-md-left">
-
-  <!-- Grid row -->
-  <div class="row">
-
-    <!-- Grid column -->
-    <div class="col-md-6 mt-md-0 mt-3">
-
-      <!-- Content -->
-      <h5><b>PHOTOWORLD</b></h5>
-      <br>
-      <p>Para nosotros es importante que te sientas agusto
-      con nuestras plataformas digitales.</p>
-      <p>Por eso te invitamos a que nos brindes tu opinion contactandonos.</p>
-      <p>Dudas, dificultades e inquietudes comunicarse a:</p>
-
-      <p>photoword@gmail.com</p>
-
-
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+       <!-- Content -->
+          <h5><b>PHOTOWORLD</b></h5>
+          <br>
+          <p>Para nosotros es importante que te sientas agusto
+          con nuestras plataformas digitales.</p>
+          <p>Por eso te invitamos a que nos brindes tu opinion contactandonos.</p>
+          <p>Dudas, dificultades e inquietudes comunicarse a:</p>
+  
+          <p>photoword@gmail.com</p>
+  
+  
+        </div>
+        <!-- Grid column -->
+  
+  
+        <hr class="clearfix w-100 d-md-none pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+         <h5> <b>REDES SOCIALES</b> </h5>
+         <br>
+        <div class="row" >
+          <img src="Facebook.png" width="50" height="50"> 
+          <label>Facebook</label>
+          <br>
+        </div>
+        <br>
+  
+        <div class="row" >
+          <img src="instagram.png" width="50" height="50">
+          <label>Instagram</label>
+        </div>
+        <br>
+       <div class="row" ><br>
+        <img src="twitter.png" width="50" height="50">
+        <label>Twitter</label>
+      </div>
+     </div>
+   </div>
+  
+   
+  
+  
+    <div class="footer-copyright text-center py-3"><b>&copy; 2020 - Derechos reservados - PhotoWorld &copy;</b>
     </div>
-    <!-- Grid column -->
-
-    <hr class="clearfix w-100 d-md-none pb-3">
-
-    <!-- Grid column -->
-    <div class="col-md-3 mb-md-0 mb-3">
-
-     <h5> <b>REDES SOCIALES</b> </h5>
-     <br>
-    <div class="row" >
-      <img src="facebook.png" width="50" height="50"> 
-      <label>Facebook</label>
-      <br>
-    </div>
-    <br>
-
-    <div class="row" >
-      <img src="instagram.png" width="50" height="50">
-      <label>Instagram</label>
-    </div>
-    <br>
-   <div class="row" ><br>
-    <img src="twitter.png" width="50" height="50">
-    <label>Twitter</label>
-  </div>
- </div>
-</div>
-
-    
-
-<div class="footer-copyright text-center py-3"><b>&copy; 2020 - Derechos reservados - PhotoWorld &copy;</b>
-</div>
-<!-- Copyright -->
-
-</footer>
-    
+    <!-- Copyright -->
+  
+  </footer>
+   
    
         
        
