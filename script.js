@@ -24,10 +24,14 @@ else if (varSexoelegido[2].checked){
     console.log(varSexoelegido[1].value);
 }
 var varsegundonombre=document.getElementById("Nombre2").value;
-
-if (varsegundonombre=Nombre2){
+console.log(varsegundonombre.length+"vacio");
+if (varsegundonombre=varsegundonombre){
     console.log(varsegundonombre.value);
     alert("ha ingresado su nombre");
+}
+else if (varsegundonombre.length==0){
+    console.log(varsegundonombre.value);
+    alert("el usuario no  tiene segundo nombre");
 }
 var varapellidos=document.getElementById("Apellidos").value;
 console.log (`${varapellidos}`);
@@ -35,17 +39,14 @@ if(varapellidos=varapellidos){
     console.log (varapellidos.value);
     alert("ha ingresado sus apellidos");
 }
-var varrol= document.getElementById("rol").checked;
+var varrol= document.getElementById("rol");
 console.log(varrol);
-    if( varrol == rol.checked) {
-        console.log(rol.value);
-          
-        }
-          else if(!varrol.length== 'rol'){
-          alert("Haregistrado su rol");
-          return true;
-          }
-        }
+if(varrol.Registrar==0 ||
+varrol.Registrar=="vacio"){
+alert("Selecciona una opcion");
+}
+}
+
 
     
        
